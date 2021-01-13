@@ -24,7 +24,7 @@ Repackage the VM into a New Vagrant Box
 vagrant package --output mynew.box
 ```
 
-Upload box / create new version etc. in browser: https://app.vagrantup.com/boxes/new / https://app.vagrantup.com/sogis/boxes/ubuntu-gdal-3.2/versions/new 
+Upload box / create new version etc. in browser: https://app.vagrantup.com/boxes/new / https://app.vagrantup.com/sogis/boxes/ubuntu-gdal-3.0/versions/new 
 
 **Do not forget to release the new version.**
 
@@ -32,7 +32,7 @@ Upload box / create new version etc. in browser: https://app.vagrantup.com/boxes
 
 Create Vagrantfile:
 ```
-vagrant init sogis/ubuntu-gdal-3.2
+vagrant init sogis/ubuntu-gdal-3.0
 ```
 
 Adjust Vagrantfile:
