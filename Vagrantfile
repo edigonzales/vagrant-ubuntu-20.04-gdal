@@ -80,8 +80,7 @@ Vagrant.configure("2") do |config|
     apt-get install -y xauth zip unzip ifupdown fonts-liberation ftp vim
     add-apt-repository ppa:ubuntugis/ubuntugis-unstable
     apt-get update    
-    apt-get install -y gdal-bin libgdal-dev libgdal-java
-    #apt-get install -y openjdk-11-jre-headless gradle
+    apt-get install -y gdal-bin
     su - vagrant -c 'curl -s get.sdkman.io | bash'
     SHELL
 end
